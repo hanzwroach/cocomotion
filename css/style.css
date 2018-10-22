@@ -11,12 +11,32 @@
 
 .header {
   position: relative;
-  box-shadow: 0 4px 11px rgba(124, 146, 169, 0.5);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.header__overlay__bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.96;
+  background-color: #4285f4;
+  z-index: 1;
+}
+
+.header__content {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  min-height: 32vh;
+  padding-top: 7em;
+  overflow: auto;
+  color: #ffffff;
+  z-index: 5;
+  position: relative;
 }
 
 .container {
   width: 80%;
-  max-width: 1080;
+  max-width: 72em;
   margin: 0 auto;
   position: relative;
 }
