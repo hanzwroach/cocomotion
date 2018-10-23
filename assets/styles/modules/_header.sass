@@ -1,0 +1,22 @@
+.header
+    position: relative
+    +box-shadow(2)
+
+    +e(overlay__bg)
+        position: absolute
+        height: 100%
+        width: 100%
+        opacity: .96
+        background-color: #4285f4
+        z-index: 1
+
+.header__content
+    display: flex
+    -webkit-box-align: center
+    align-items: center
+    min-height: 32vh
+    padding-top: 7em
+    overflow: auto
+    color: #ffffff
+    z-index: 5
+    position: relative
