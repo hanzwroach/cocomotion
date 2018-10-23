@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,600");
 .html {
   background-color: #fff;
   font-feature-settings: "liga" on;
@@ -7,6 +7,10 @@
   font-family: "Roboto", sans-serif;
   line-height: 1.7;
   color: #545c62;
+}
+
+body {
+  margin: 0;
 }
 
 .container {
@@ -63,7 +67,7 @@
   color: #ffffff;
   padding: 24pt 0 8pt;
 }
-.header__sub__stressed {
+.header__sub--stressed {
   border-bottom: 1px solid #ffffff;
   font-weight: 400;
 }
