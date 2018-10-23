@@ -1,23 +1,25 @@
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+
 /* Document
    ========================================================================== */
+
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
-html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
+
+ html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /* Sections
    ========================================================================== */
+
 /**
  * Remove the margin in all browsers.
  */
+
 body {
   margin: 0;
 }
@@ -26,6 +28,7 @@ body {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
+
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -33,35 +36,35 @@ h1 {
 
 /* Grouping content
    ========================================================================== */
+
 /**
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
+
 hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
 }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
+
 pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /* Text-level semantics
    ========================================================================== */
+
 /**
  * Remove the gray background on active links in IE 10.
  */
+
 a {
   background-color: transparent;
 }
@@ -70,18 +73,17 @@ a {
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
+
 abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
-  text-decoration: underline dotted;
-  /* 2 */
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
+
 b,
 strong {
   font-weight: bolder;
@@ -91,18 +93,18 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
+
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /**
  * Add the correct font size in all browsers.
  */
+
 small {
   font-size: 80%;
 }
@@ -111,6 +113,7 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
+
 sub,
 sup {
   font-size: 75%;
@@ -129,18 +132,24 @@ sup {
 
 /* Embedded content
    ========================================================================== */
+
 /**
  * Remove the border on images inside links in IE 10.
  */
+
 img {
   border-style: none;
 }
 
+
+
 /* Interactive
    ========================================================================== */
+
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
+
 details {
   display: block;
 }
@@ -148,15 +157,18 @@ details {
 /*
  * Add the correct display in all browsers.
  */
+
 summary {
   display: list-item;
 }
 
 /* Misc
    ========================================================================== */
+
 /**
  * Add the correct display in IE 10+.
  */
+
 template {
   display: none;
 }
@@ -164,126 +176,7 @@ template {
 /**
  * Add the correct display in IE 10.
  */
+
 [hidden] {
   display: none;
 }
-
-.html {
-  background-color: #fff;
-  font-feature-settings: "liga" on;
-  text-rendering: optimizeLegibility;
-  font-size: 0.938em;
-  font-family: "Roboto", sans-serif;
-  line-height: 1.7;
-  color: #545c62;
-}
-
-.container {
-  width: 80%;
-  max-width: 72em;
-  margin: 0 auto;
-  position: relative;
-}
-
-.nav {
-  position: top;
-  width: 100%;
-  z-index: 100;
-  height: 5.3em;
-  background-color: #4285f4;
-  color: #ffffff;
-}
-
-.nav__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-  overflow: hidden;
-  color: #ffffff;
-}
-.nav__container__logo {
-  display: block;
-  cursor: pointer;
-  font-weight: 600;
-  font-size: 1.15rem;
-  letter-spacing: 0.02rem;
-  color: #ffffff;
-}
-.nav__container__menu {
-  font-weight: 400;
-  color: #e8e8e8;
-  font-size: 0.875rem;
-  padding-top: 0.25rem;
-}
-
-.nav__item--list {
-  margin-left: 0.5rem;
-  list-style-type: none;
-}
-
-.header {
-  position: relative;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-}
-.header__sub {
-  font-size: 1.4rem;
-  font-weight: 300;
-  line-height: 1.7;
-  color: #ffffff;
-  padding: 24pt 0 8pt;
-}
-.header__sub__stressed {
-  border-bottom: 1px solid #ffffff;
-  font-weight: 400;
-}
-.header__bg {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-color: #4285f4;
-  z-index: 1;
-}
-
-.header__content {
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  min-height: 32vh;
-  padding-top: 7em;
-  overflow: auto;
-  color: #ffffff;
-  z-index: 5;
-  position: relative;
-}
-.header__content__inner {
-  width: 100%;
-  text-align: center;
-}
-
-.steps__container {
-  padding: 1em 0;
-}
-
-.step {
-  padding: 1em 0;
-  width: 100%;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
-}
-.step__img {
-  width: 100%;
-}
-
-.point {
-  width: 90%;
-  position: relative;
-  max-width: 44em;
-  margin-bottom: 32pt;
-  margin-left: 16pt;
-  margin-right: 16pt;
-  padding: 24pt 0;
-  flex-shrink: 0;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-}
-
-/*# sourceMappingURL=style.css.map */
