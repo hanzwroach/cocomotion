@@ -26,6 +26,7 @@
     align-items: center
     min-height: 32vh
     padding-top: 7em
+    overflow: auto
     color: #ffffff
     z-index: 5
     position: relative
@@ -33,3 +34,27 @@
     +e(inner)
         width:100%
         text-align: center
+    
+    +e(sub)
+        font-size: 1.4rem
+        font-weight: 300
+        line-height: 1.7
+        padding: 24pt 0 8pt
+
+        +m(stressed)
+            border-bottom: 1px solid #ffffff
+            font-weight: 400
+
+.button
+    cursor: pointer
+    outline: 0
+    border: none
+    border-bottom: 1px solid #4285f4
+
+    +e(secondary)
+        background: #06d19c
+        padding: 8pt 32pt 7pt
+        border-radius: 25px
+        margin-top: 16pt
+        color: #ffffff
+        display: inline-block

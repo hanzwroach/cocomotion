@@ -178,6 +178,10 @@ template {
   color: #545c62;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   width: 80%;
   max-width: 72em;
@@ -251,6 +255,7 @@ template {
   align-items: center;
   min-height: 32vh;
   padding-top: 7em;
+  overflow: auto;
   color: #ffffff;
   z-index: 5;
   position: relative;
@@ -258,6 +263,31 @@ template {
 .header__content__inner {
   width: 100%;
   text-align: center;
+}
+.header__content__sub {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.7;
+  padding: 24pt 0 8pt;
+}
+.header__content__sub__stressed {
+  border-bottom: 1px solid #ffffff;
+  font-weight: 400;
+}
+
+.button {
+  cursor: pointer;
+  outline: 0;
+  border: none;
+  border-bottom: 1px solid #4285f4;
+}
+.button__secondary {
+  background: #06d19c;
+  padding: 8pt 32pt 7pt;
+  border-radius: 25px;
+  margin-top: 16pt;
+  color: #ffffff;
+  display: inline-block;
 }
 
 .steps__container {
