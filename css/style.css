@@ -56,6 +56,17 @@
   position: relative;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
+.header__sub {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.7;
+  color: #ffffff;
+  padding: 24pt 0 8pt;
+}
+.header__sub__stressed {
+  border-bottom: 1px solid #ffffff;
+  font-weight: 400;
+}
 .header__overlay {
   background-image: url(https://85f3d9e16a9ac4d4a655-59632709461e3a33ccf4a802083121a8.ssl.cf5.rackcdn.com/assets/quadrobg.svg);
   position: absolute;
@@ -86,6 +97,10 @@
   color: #ffffff;
   z-index: 5;
   position: relative;
+}
+.header__content__inner {
+  width: 100%;
+  text-align: center;
 }
 
 .steps__container {

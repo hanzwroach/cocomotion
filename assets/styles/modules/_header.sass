@@ -2,6 +2,17 @@
     position: relative
     +box-shadow(2)
 
+    +e(sub)
+        font-size: 1.4rem
+        font-weight: 300
+        line-height: 1.7
+        color: #ffffff
+        padding: 24pt 0 8pt
+
+        +m(stressed)
+            border-bottom: 1px solid #ffffff
+            font-weight: 400
+
     +e(overlay)
         background-image: url(https://85f3d9e16a9ac4d4a655-59632709461e3a33ccf4a802083121a8.ssl.cf5.rackcdn.com/assets/quadrobg.svg)
         position: absolute
@@ -31,3 +42,7 @@
     color: #ffffff
     z-index: 5
     position: relative
+
+    +e(inner)
+        width:100%
+        text-align: center
