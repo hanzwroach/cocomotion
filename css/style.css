@@ -13,6 +13,17 @@
   position: relative;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
+.header__overlay {
+  background-image: url(overlay.svg);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0.75;
+  z-index: 2;
+}
 .header__overlay__bg {
   position: absolute;
   height: 100%;
