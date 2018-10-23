@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
 .html {
   background-color: #fff;
-  -moz-font-feature-settings: "liga" on;
+  font-feature-settings: "liga" on;
   text-rendering: optimizeLegibility;
-  font-size: 15px;
+  font-size: 0.938em;
   font-family: "Roboto", sans-serif;
   line-height: 1.7;
   color: #545c62;
