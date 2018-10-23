@@ -222,8 +222,14 @@ a {
 }
 
 .nav__item--list {
+  display: inline-block;
   margin-left: 0.5rem;
   list-style-type: none;
+}
+
+.nav__item {
+  list-style-type: none;
+  color: #ffffff;
 }
 
 .header {
