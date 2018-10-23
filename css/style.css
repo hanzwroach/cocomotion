@@ -186,7 +186,7 @@ template {
 }
 
 .nav {
-  position: top;
+  position: fixed;
   width: 100%;
   z-index: 100;
   height: 5.3em;
@@ -251,7 +251,6 @@ template {
   align-items: center;
   min-height: 32vh;
   padding-top: 7em;
-  overflow: auto;
   color: #ffffff;
   z-index: 5;
   position: relative;
