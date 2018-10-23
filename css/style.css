@@ -197,24 +197,24 @@ a {
   background-color: #4285f4;
   color: #ffffff;
 }
-
 .nav__container {
   display: flex;
+  -webkit-box-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
   align-items: center;
   height: 100%;
   overflow: hidden;
-  color: #ffffff;
 }
-.nav__container__logo {
+.nav__logo {
   display: block;
   cursor: pointer;
   font-weight: 600;
   font-size: 1.15rem;
-  letter-spacing: 0.02rem;
   color: #ffffff;
+  letter-spacing: 0.02rem;
 }
-.nav__container__menu {
+.nav__menu {
   font-weight: 400;
   color: #e8e8e8;
   font-size: 0.875rem;
@@ -288,6 +288,7 @@ a {
   margin-top: 16pt;
   color: #ffffff;
   display: inline-block;
+  margin-bottom: 2em;
 }
 
 .steps__container {
