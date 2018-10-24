@@ -344,7 +344,7 @@ a {
   float: left;
 }
 .points__container {
-  dispaly: flex;
+  display: flex;
   justify-content: center;
   flex-wrap: wrap;
   -webkit-box-pack: center;
