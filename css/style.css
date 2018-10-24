@@ -413,7 +413,8 @@ a {
 .footer__link {
   color: #e8e8e8;
   border-bottom: 1px dotted #e8e8e8;
-  padding-bottom: 0.875rem;
+  padding-bottom: 0.05rem;
+  font-size: 0.875rem;
   transition: 0.7s;
 }
 
