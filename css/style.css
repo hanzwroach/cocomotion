@@ -180,6 +180,8 @@ html {
 
 a {
   text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .container {
@@ -335,8 +337,22 @@ a {
   color: #757575;
 }
 
+.points {
+  width: 100%;
+  padding: 48pt 2.7em;
+  background-color: #fafafa;
+  float: left;
+}
+.points__container {
+  dispaly: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+}
+
 .point {
   width: 90%;
+  background-color: #ffffff;
   position: relative;
   max-width: 44em;
   margin-bottom: 32pt;
@@ -345,6 +361,60 @@ a {
   padding: 24pt 0;
   flex-shrink: 0;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.footer {
+  background-color: #333c44;
+  width: 100%;
+  padding: 16pt 0;
+  color: #d1d1d1;
+  font-weight: 300;
+  font-size: 0.85rem;
+}
+.footer__inner {
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+}
+.footer__logo {
+  flex-shrink: 0;
+  padding-right: 16pt;
+  display: block;
+  font-size: 1.15rem;
+  min-width: 33%;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 0.02rem;
+}
+.footer__data {
+  display: flex;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding-top: 0.25rem;
+  flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+}
+.footer__data__item {
+  padding-bottom: 0.5rem;
+  display: inline-block;
+  margin-bottom: 8pt;
+}
+.footer__row {
+  margin-bottom: 4pt;
+}
+.footer__link {
+  color: #e8e8e8;
+  border-bottom: 1px dotted #e8e8e8;
+  padding-bottom: 0.875rem;
+  transition: 0.7s;
 }
 
 /*# sourceMappingURL=style.css.map */
