@@ -317,7 +317,14 @@ a {
   text-align: center;
 }
 .step__img {
-  width: 100%;
+  max-width: 36ch;
+}
+.step__title {
+  margin: 0 auto;
+  padding: 10pt 0 0;
+  font-weight: 400;
+  font-size: 1.35em;
+  line-height: 1.6;
 }
 .step__content {
   max-width: 36ch;
