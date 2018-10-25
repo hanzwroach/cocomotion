@@ -1,5 +1,8 @@
 .header
     position: relative
+    background-color: #fafafa
+    width: 100%
+    height: 100%
 
     +e(sub)
         font-size: 1.4rem
@@ -12,19 +15,19 @@
             border-bottom: 1px solid #545c62
             font-weight: 400
 
-    +e(bg)
-        position: absolute
-        height: 100%
-        width: 100%
-        background-color: #fafafa
-        z-index: 1
+    //+e(bg)
+    //    position: absolute
+      //  height: 100vh
+        //width: 100vw
+      //  background-color: #fafafa
+      //  z-index: 1
 
 .header__content
     display: flex
     -webkit-box-align: center
     align-items: center
     min-height: 32vh
-    padding-top: 7em
+    padding-top: 5em
     overflow: auto
     color: #ffffff
     z-index: 5
@@ -52,13 +55,3 @@
         color: #ffffff
         display: inline-block
         margin-bottom: 2em
-
-.hero
-    background-image: url(https://source.unsplash.com/1600x900/?nature,water)
-    opacity: .75
-    background-repeat: no-repeat
-    width: 100%
-    height: 25em
-    padding: 2em 0
-    background-color: fafafa
-    +box-shadow(2)
