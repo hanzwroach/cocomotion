@@ -1,5 +1,5 @@
 .points
-    width: 100%
+    //width: 100%
     padding: 48pt 2.7em
     background-color: #fafafa
     float: left
@@ -21,3 +21,28 @@
     padding: 24pt 0
     flex-shrink: 0
     +box-shadow(1)
+
+    +e(texts)
+        max-width: 500px
+        margin: 0 auto
+        text-align: center
+
+    +e(title)
+        padding: 0
+        font-size: 1rem
+        font-weight: 400
+    
+    +e(text)
+        margin: 4pt 0
+        font-size: .925rem
+        font-weight: 300
+        padding: 8pt 0
+        color: #757575
+
+.point::before
+    content:""
+    position: absolute
+    height: 100%
+    width: 1px
+    top: 0
+    opacity: .4

@@ -29,63 +29,8 @@ a
 
 @import 'modules/steps.sass'
 
-@import 'modules/points.sass'
-
 @import 'modules/cards.sass'
 
-.footer
-    background-color: #333c44
-    width: 100%
-    padding: 16pt 0
-    color: #d1d1d1
-    font-weight: 300
-    font-size: .85rem
+@import 'modules/points.sass'
 
-    +e(inner)
-        dispaly:flex
-        -webkit-box-pack: justify
-        justify-content: space-between
-        -webkit-box-orient: vertical
-        -webkit-box-direction: normal
-        flex-direction: column    
-    
-    +e(logo)
-        flex-shrink: 0
-        padding-right: 16pt
-        display: block
-        font-size: 1.15rem
-        min-width: 33%
-        color: #ffffff
-        margin-bottom: 1.5rem
-        cursor: pointer
-        font-weight: 600
-        letter-spacing: .02rem
-    
-    +e(data)
-        display: flex
-        -webkit-box-flex: 1
-        flex-grow: 1
-        -webkit-box-pack: justify
-        justify-content: space-between
-        padding-top: .25rem
-        flex-wrap: wrap
-        -webkit-box-orient: vertical
-        -webkit-box-direction: normal
-        flex-direction: column
-
-    +e(data__item)
-        padding-bottom: .5rem
-        display: inline-block
-        margin-bottom: 8pt
-    
-    +e(row)
-        margin-bottom: 4pt
-    
-    +e(link)
-        color: #e8e8e8
-        border-bottom: 1px dotted #e8e8e8
-        padding-bottom: .05rem
-        font-size: .875rem
-        transition: .7s
-
-        
+@import 'modules/footer.sass'
