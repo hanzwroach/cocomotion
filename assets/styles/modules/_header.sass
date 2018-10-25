@@ -1,24 +1,22 @@
 .header
     position: relative
 
-    +box-shadow(2)
-
     +e(sub)
         font-size: 1.4rem
         font-weight: 300
         line-height: 1.7
-        color: #ffffff
-        padding: 24pt 0 8pt
+        color: #545c62
+        padding: 5pt 0 8pt
 
         +m(stressed)
-            border-bottom: 1px solid #ffffff
+            border-bottom: 1px solid #545c62
             font-weight: 400
 
     +e(bg)
         position: absolute
         height: 100%
         width: 100%
-        background-color: #4285f4
+        background-color: #fafafa
         z-index: 1
 
 .header__content
@@ -35,6 +33,10 @@
     +e(inner)
         width:100%
         text-align: center
+
+.header__logo
+    margin-top: 1em
+    width: 15em
 
 .button
     cursor: pointer
