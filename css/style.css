@@ -371,6 +371,9 @@ a {
   font-size: 1rem;
   font-weight: 400;
 }
+.card__social {
+  margin: 0.5em 0;
+}
 .card__text {
   margin: 4pt 0;
   font-size: 0.925rem;
