@@ -1,21 +1,42 @@
 @import 'modules/norminalize'
 @import 'modules/mixins'
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400')
-
+@import 'modules/media.scss'
 
 html
     background-color:#fff
-    font-feature-settings: "liga" on
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+    -moz-font-feature-settings: "liga" on
     text-rendering: optimizeLegibility
-    font-size: 0.938em
-    font-family: 'Roboto', sans-serif
+    font-family: 'Roboto',sans-serif
+    font-size:15px
+    color:#545c6e
     line-height:1.7
-    color: #545c62
+
 
 a 
     text-decoration: none
     background-color: transparent 
     cursor: pointer
+
+*
+    box-sizing: border-box
+
+p 
+ font-weight:300
+ padding:8pt 0
+ color:#757575
+
+h3 
+ font-size:1.35rem
+ line-height:1.6
+
+h1,h2,h3,h4,h5,h6
+ font-weight:400
+ padding:8pt 0
+
+
 
 .container
     width: 80%
