@@ -428,13 +428,13 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #ffffff;
   position: relative;
   text-align: center;
-  max-width: 60em;
+  max-width: 30em;
 }
 .card__img {
   width: 100%;
 }
 .card__texts {
-  max-width: 500px;
+  max-width: 350px;
   margin: 0 auto;
   text-align: center;
 }
