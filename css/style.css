@@ -577,4 +577,16 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.875rem;
 }
 
+@media (min-width: 600px) {
+  .footer__inner {
+    flex-direction: row;
+  }
+}
+@media (min-width: 992px) {
+  .footer__data {
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
