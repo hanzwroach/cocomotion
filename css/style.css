@@ -168,57 +168,6 @@ template {
   display: none;
 }
 
-@media (min-width: 1400px) {
-  .steps {
-    padding: 24pt 0;
-  }
-}
-@media (min-width: 992px) {
-  .nav__item--list {
-    margin-left: 1rem;
-  }
-
-  .step__img {
-    max-width: 15ch;
-  }
-
-  .steps__container {
-    -js-display: flex;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    padding-top: 16pt;
-  }
-}
-@media (min-width: 992px) {
-  .step {
-    border-top: none;
-    width: auto;
-    margin: 0 24pt;
-    padding: 16pt 0;
-  }
-
-  .step__img {
-    max-width: 15ch;
-  }
-}
-@media (min-width: 600px) {
-  .step__img {
-    max-width: 15ch;
-  }
-}
-@media (min-width: 992px) {
-  .step p {
-    max-width: 40ch;
-  }
-}
-@media (min-width: 992px) {
-  .steps__heading {
-    padding-top: 24pt;
-  }
-}
 html {
   background-color: #fff;
   -webkit-font-smoothing: antialiased;
@@ -410,6 +359,54 @@ h1, h2, h3, h4, h5, h6 {
   color: #757575;
 }
 
+@media (min-width: 1400px) {
+  .steps {
+    padding: 24pt 0;
+  }
+}
+@media (min-width: 992px) {
+  .step {
+    border-top: none;
+    width: auto;
+    margin: 0 24pt;
+    padding: 16pt 0;
+  }
+
+  .nav__item--list {
+    margin-left: 1rem;
+  }
+
+  .step__img {
+    max-width: 15ch;
+  }
+
+  .steps__container {
+    -js-display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding-top: 16pt;
+  }
+
+  .step__img {
+    max-width: 15ch;
+  }
+
+  .step p {
+    max-width: 40ch;
+  }
+
+  .steps__heading {
+    padding-top: 24pt;
+  }
+}
+@media (min-width: 600px) {
+  .step__img {
+    max-width: 15ch;
+  }
+}
 .points {
   width: 100%;
   padding: 48pt 2.7em;
@@ -503,8 +500,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .card__img {
   display: inline-block;
-  height: auto;
-  border: none;
+  width: 8em;
+  margin: 1.7em 2em;
 }
 .card__texts {
   max-width: 350px;
@@ -514,8 +511,9 @@ h1, h2, h3, h4, h5, h6 {
 .card__title {
   padding: 0;
   margin: 1em;
-  font-size: 1rem;
+  font-size: 1.35em;
   font-weight: 400;
+  line-height: 1.6;
 }
 .card__social {
   margin: 0.2em;
