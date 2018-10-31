@@ -236,11 +236,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   font-size: 1.15rem;
   font-family: "Muli", sans-serif;
-  color: #757575;
+  color: #7a7a7a;
   letter-spacing: 0.02rem;
 }
 .nav__logo--stressed {
-  color: gray;
+  color: #4a4a4a;
 }
 .nav__menu {
   font-weight: 400;
@@ -565,14 +565,14 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.15rem;
   min-width: 33%;
   font-family: "Muli", sans-serif;
-  color: #ffffff;
+  color: white;
   margin-bottom: 1.5rem;
   cursor: pointer;
   font-weight: 600;
   letter-spacing: 0.02rem;
 }
 .footer__logo--stressed {
-  color: gray;
+  color: #b5b5b5;
 }
 .footer__data {
   display: flex;
