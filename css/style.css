@@ -6,6 +6,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
+@import url("https://fonts.googleapis.com/css?family=Muli:600");
 html {
   line-height: 1.15;
   /* 1 */
@@ -234,8 +235,12 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
   font-weight: 600;
   font-size: 1.15rem;
+  font-family: "Muli", sans-serif;
   color: #757575;
   letter-spacing: 0.02rem;
+}
+.nav__logo--stressed {
+  color: gray;
 }
 .nav__menu {
   font-weight: 400;
@@ -298,7 +303,6 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
   outline: 0;
   border: none;
-  border-bottom: 1px solid #4285f4;
 }
 .button__secondary {
   background: #06d19c;
@@ -560,11 +564,15 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   font-size: 1.15rem;
   min-width: 33%;
+  font-family: "Muli", sans-serif;
   color: #ffffff;
   margin-bottom: 1.5rem;
   cursor: pointer;
   font-weight: 600;
   letter-spacing: 0.02rem;
+}
+.footer__logo--stressed {
+  color: gray;
 }
 .footer__data {
   display: flex;
