@@ -170,14 +170,14 @@ template {
 }
 
 html {
-  background-color: #fff;
+  background-color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -moz-font-feature-settings: "liga" on;
   text-rendering: optimizeLegibility;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
-  color: #545c6e;
+  color: #b5b5b5;
   line-height: 1.7;
 }
 
@@ -535,10 +535,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card__social__item {
-  list-style: none;
+  list-style-type: none;
   float: left;
   padding: 0.5em;
   text-align: center;
+}
+
+.fab {
+  color: #4a4a4a;
 }
 
 .footer {
