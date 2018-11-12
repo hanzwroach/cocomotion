@@ -177,7 +177,7 @@ html {
   text-rendering: optimizeLegibility;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
-  color: #b5b5b5;
+  color: #363636;
   line-height: 1.7;
 }
 
@@ -194,7 +194,7 @@ a {
 p {
   font-weight: 300;
   padding: 8pt 0;
-  color: #757575;
+  color: #4a4a4a;
 }
 
 h3 {
