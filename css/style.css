@@ -177,7 +177,7 @@ html {
   text-rendering: optimizeLegibility;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
-  color: #363636;
+  color: #4a4a4a;
   line-height: 1.7;
 }
 
@@ -185,6 +185,7 @@ a {
   text-decoration: none;
   background-color: transparent;
   cursor: pointer;
+  transition: color 0.7s, border-color 0.7s;
 }
 
 * {
@@ -194,7 +195,6 @@ a {
 p {
   font-weight: 300;
   padding: 8pt 0;
-  color: #4a4a4a;
 }
 
 h3 {
@@ -331,7 +331,7 @@ h1, h2, h3, h4, h5, h6 {
 .steps__content {
   font-weight: 300;
   padding: 8pt 0;
-  color: #757575;
+  color: #7a7a7a;
 }
 
 .steps__container {
@@ -360,7 +360,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: auto;
   font-weight: 300;
   padding: 8pt 0;
-  color: #757575;
+  color: #7a7a7a;
 }
 
 @media (min-width: 1400px) {
@@ -426,7 +426,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .point {
   width: 90%;
-  background-color: #ffffff;
+  background-color: white;
   position: relative;
   max-width: 44em;
   margin-bottom: 32pt;
@@ -443,6 +443,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .point__title {
   padding: 0;
+  margin-bottom: 0;
   font-size: 1rem;
   font-weight: 400;
 }
@@ -451,7 +452,17 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.925rem;
   font-weight: 300;
   padding: 8pt 0;
-  color: #757575;
+  color: #7a7a7a;
+}
+.point__link {
+  color: #b5b5b5;
+  padding-bottom: 0.05rem;
+  padding-top: 0.05rem;
+  font-size: 0.875rem;
+}
+
+.point__link:hover {
+  color: #7a7a7a;
 }
 
 @media (min-width: 600px) {
@@ -495,7 +506,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 16pt 16pt 30pt 16pt;
   width: 90%;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  background-color: #ffffff;
+  background-color: white;
   position: relative;
   text-align: center;
   max-width: 30em;
@@ -531,7 +542,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.925rem;
   font-weight: 300;
   padding: 8pt 0;
-  color: #757575;
+  color: #7a7a7a;
 }
 
 .card__social__item {
@@ -542,7 +553,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fab {
-  color: #4a4a4a;
+  transition: color 0.7s, border-color 0.7s;
+  color: #b5b5b5;
+}
+
+.fab:hover {
+  color: #7a7a7a;
 }
 
 .footer {
@@ -599,10 +615,14 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 4pt;
 }
 .footer__link {
-  color: #e8e8e8;
-  border-bottom: 1px dotted #e8e8e8;
+  color: #b5b5b5;
+  border-bottom: 1px dotted #b5b5b5;
   padding-bottom: 0.05rem;
   font-size: 0.875rem;
+}
+
+.footer__link:hover {
+  color: whitesmoke;
 }
 
 @media (min-width: 600px) {
