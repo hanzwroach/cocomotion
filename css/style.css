@@ -219,7 +219,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 100;
   height: 5.3em;
   background-color: #fafafa;
-  color: #ffffff;
+  color: white;
 }
 .nav__container {
   display: flex;
@@ -244,7 +244,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav__menu {
   font-weight: 400;
-  color: #e8e8e8;
   font-size: 0.875rem;
   padding-top: 0.25rem;
 }
@@ -257,7 +256,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav__item {
   list-style-type: none;
-  color: #757575;
+  color: #7a7a7a;
+}
+
+.nav__item:hover {
+  color: #4a4a4a;
 }
 
 .header {
@@ -270,11 +273,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.4rem;
   font-weight: 300;
   line-height: 1.7;
-  color: #545c62;
+  color: #4a4a4a;
   padding: 5pt 0 8pt;
 }
 .header__sub--stressed {
-  border-bottom: 1px solid #545c62;
+  border-bottom: 1px solid #4a4a4a;
   font-weight: 400;
 }
 
@@ -285,7 +288,7 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 32vh;
   padding-top: 5em;
   overflow: auto;
-  color: #ffffff;
+  color: white;
   z-index: 5;
   position: relative;
 }
@@ -300,18 +303,34 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .button {
-  cursor: pointer;
-  outline: 0;
-  border: none;
-}
-.button__secondary {
-  background: #06d19c;
-  padding: 8pt 32pt 7pt;
-  border-radius: 25px;
-  margin-top: 16pt;
-  color: #ffffff;
   display: inline-block;
+  margin-top: 16pt;
   margin-bottom: 2em;
+  outline: 0;
+  padding: 8pt 32pt;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 25px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  border: none;
+  font-size: 15px;
+  text-align: center;
+}
+
+.button__green {
+  background-color: #06d19c;
+  color: white;
+}
+
+.button:hover {
+  box-shadow: 1px 6px 15px rgba(0, 0, 0, 0.5);
 }
 
 .steps {
@@ -457,7 +476,7 @@ h1, h2, h3, h4, h5, h6 {
 .point__link {
   color: #b5b5b5;
   padding-bottom: 0.05rem;
-  padding-top: 0.05rem;
+  padding-top: 0.09rem;
   font-size: 0.875rem;
 }
 
@@ -521,11 +540,12 @@ h1, h2, h3, h4, h5, h6 {
 .card__texts {
   max-width: 350px;
   margin: 0 auto;
+  padding: 0.6em;
   text-align: center;
 }
 .card__title {
   padding: 0;
-  margin: 1em;
+  margin: 1em 1em 0 1em;
   font-size: 1.35em;
   font-weight: 400;
   line-height: 1.6;
