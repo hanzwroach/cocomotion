@@ -563,7 +563,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 .card__text {
-  margin: 4pt 0;
+  margin: 4pt 6pt;
   font-size: 0.925rem;
   font-weight: 300;
   padding: 8pt 0;
