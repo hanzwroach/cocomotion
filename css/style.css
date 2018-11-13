@@ -528,14 +528,19 @@ h1, h2, h3, h4, h5, h6 {
   background-color: white;
   position: relative;
   text-align: center;
-  max-width: 30em;
+  max-width: 22em;
   border-radius: 4px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 .card__img {
   display: inline-block;
-  width: 8em;
-  margin: 1.7em 2em;
+  width: 10em;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  border-radius: 50%;
+  border: 4pt solid #dbdbdb;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
 }
 .card__texts {
   max-width: 350px;
@@ -545,7 +550,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .card__title {
   padding: 0;
-  margin: 1em 1em 0 1em;
+  margin: 0;
   font-size: 1.35em;
   font-weight: 400;
   line-height: 1.6;
@@ -568,7 +573,7 @@ h1, h2, h3, h4, h5, h6 {
 .card__social__item {
   list-style-type: none;
   float: left;
-  padding: 0.5em;
+  padding: 0.5em 1.5em;
   text-align: center;
 }
 
@@ -578,6 +583,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fab:hover {
+  color: #7a7a7a;
+}
+
+.fa-phone {
+  transition: color 0.7s, border-color 0.7s;
+  color: #b5b5b5;
+}
+
+.fa-phone:hover {
   color: #7a7a7a;
 }
 
@@ -641,6 +655,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.875rem;
 }
 
+.fa-heart {
+  color: red;
+}
+
 .footer__link:hover {
   color: whitesmoke;
 }
@@ -651,6 +669,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media (min-width: 992px) {
+  .footer {
+    padding: 36pt 0 16pt;
+  }
+
   .footer__data {
     flex-wrap: nowrap;
     flex-direction: row;
