@@ -451,7 +451,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 32pt;
   margin-left: 16pt;
   margin-right: 16pt;
-  padding: 24pt 0;
+  padding: 10pt 0 5pt 0;
   flex-shrink: 0;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
@@ -461,16 +461,37 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 .point__title {
-  padding: 0;
-  margin-bottom: 0;
-  font-size: 1rem;
+  padding: 0.9em 0.9em 0em;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  font-size: 1.5rem;
   font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 .point__text {
   margin: 4pt 0;
   font-size: 0.925rem;
   font-weight: 300;
   padding: 8pt 0;
+  color: #7a7a7a;
+}
+.point__features {
+  list-style-type: none;
+  color: #7a7a7a;
+  padding: 0;
+}
+.point__currency {
+  display: inline-block;
+  margin-top: 20px;
+  vertical-align: top;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1bbc9d;
+}
+.point__value {
+  font-size: 4.5rem;
+  font-weight: 300;
   color: #7a7a7a;
 }
 .point__link {
@@ -491,12 +512,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 992px) {
   .point {
-    width: 20%;
+    width: 23%;
   }
 }
 @media (min-width: 1400px) {
   .point {
-    width: 22%;
+    width: 25%;
   }
 }
 .point::before {
