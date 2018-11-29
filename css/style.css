@@ -6,7 +6,6 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
-@import url("https://fonts.googleapis.com/css?family=Muli:600");
 html {
   line-height: 1.15;
   /* 1 */
@@ -169,6 +168,10 @@ template {
   display: none;
 }
 
+@font-face {
+  font-family: lynda;
+  src: url("Lynda-Cursive.TTF");
+}
 html {
   background-color: white;
   -webkit-font-smoothing: antialiased;
@@ -232,12 +235,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav__logo {
   display: block;
-  cursor: pointer;
   font-weight: 600;
-  font-size: 1.15rem;
-  font-family: "Muli", sans-serif;
+  font-size: 1.5rem;
+  font-family: "lynda", sans-serif;
   color: #7a7a7a;
-  letter-spacing: 0.02rem;
+  letter-spacing: 0.1rem;
+  padding-left: 3pt;
 }
 .nav__logo--stressed {
   color: #4a4a4a;
@@ -256,11 +259,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav__item {
   list-style-type: none;
+  border: 1px solid #7a7a7a;
+  border-radius: 10px;
+  padding: 0 5pt;
   color: #7a7a7a;
 }
 
 .nav__item:hover {
   color: #4a4a4a;
+  border: 1px solid #4a4a4a;
 }
 
 .header {
@@ -299,7 +306,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header__logo {
   margin-top: 1em;
-  width: 15em;
+  width: 20em;
 }
 
 .button {
@@ -455,6 +462,9 @@ h1, h2, h3, h4, h5, h6 {
   flex-shrink: 0;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
+.point__alt {
+  border: 2px solid #b5b5b5;
+}
 .point__texts {
   max-width: 500px;
   margin: 0 auto;
@@ -556,7 +566,7 @@ h1, h2, h3, h4, h5, h6 {
 .card__img {
   display: inline-block;
   width: 100%;
-  margin-top: 2em;
+  margin-top: 0;
   margin-bottom: 0.5em;
 }
 .card__texts {
@@ -634,14 +644,13 @@ h1, h2, h3, h4, h5, h6 {
   flex-shrink: 0;
   padding-right: 16pt;
   display: block;
-  font-size: 1.15rem;
+  font-size: 1.5rem;
   min-width: 33%;
-  font-family: "Muli", sans-serif;
+  font-family: "lynda", sans-serif;
   color: white;
   margin-bottom: 1.5rem;
-  cursor: pointer;
   font-weight: 600;
-  letter-spacing: 0.02rem;
+  letter-spacing: 0.1rem;
 }
 .footer__logo--stressed {
   color: #b5b5b5;
