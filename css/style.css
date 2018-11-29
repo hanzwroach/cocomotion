@@ -447,7 +447,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 90%;
   background-color: white;
   position: relative;
-  max-width: 44em;
+  max-width: 20em;
   margin-bottom: 32pt;
   margin-left: 16pt;
   margin-right: 16pt;
@@ -505,7 +505,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #7a7a7a;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 650px) {
   .point {
     width: 40%;
   }
