@@ -305,7 +305,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-align: center;
   align-items: center;
   min-height: 32vh;
-  padding-top: 5em;
+  padding-top: 3em;
   overflow: auto;
   color: white;
   z-index: 5;
@@ -317,8 +317,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header__logo {
-  margin-top: 1em;
-  width: 20em;
+  margin: 0;
+  width: 18em;
+}
+
+.header__logo__text {
+  color: #29abe2;
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 4em;
+  font-family: "lynda", sans-serif;
+  letter-spacing: 0.2rem;
 }
 
 .button {
